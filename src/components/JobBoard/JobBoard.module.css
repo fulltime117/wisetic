@@ -1,0 +1,58 @@
+
+.community_img_wrapper{
+    width: 74px;
+    height: 70px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.community_item_wrapper{
+    position: relative;
+    margin-left: 10px;
+    height: 70px;
+    display: flex;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+
+
+.c_item_title h4{
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--text-color);
+    max-height: 40px;        
+    overflow: hidden;
+}
+
+.c_item_title h4:hover{
+    color: var(--secondary-color);
+}
+
+.c_item_title p{
+    font-weight: 100;
+    color: var(--text-color-third);
+    margin:6px 0px;
+    font-size: 12px;
+    margin: 1px 0px;
+}
+
+.c_item_title p svg{
+    width: 14px;
+    fill: #FFC000;
+}
+
+.c_item_title .job_salary{
+    color: #04C224;
+    font-size: 13px;
+    margin-top: -6px;
+}
+
+.c_item_title .job_salary svg{
+    fill: #04C224;
+    width: 12px;
+}

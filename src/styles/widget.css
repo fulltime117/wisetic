@@ -1,0 +1,160 @@
+.profile-page .profile-widgets{
+    margin-top: 24px;
+}
+
+.widget_body{
+    min-height: 200px;
+}
+
+.widget_title{
+    text-align: left;
+    padding: 18px;
+    padding-bottom: 10px;
+
+}
+
+.widget_content{
+    padding: 0px 18px;
+}
+
+.widget_content .MuiList-root{
+    padding-bottom: 4px;
+}
+
+.widget_active_circle{
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    /* border: 0.5px solid #707070;         */
+}
+
+.w_c_green{
+    background-color: #0DEB14;
+    border-color: #70707050;
+}
+
+.community_item .widget_active_circle{
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+
+
+
+.widget_content .MuiCheckbox-colorSecondary.Mui-disabled{
+    color: rgb(53 206 53 / 83%);
+}
+
+.c_widget_item_check{
+    position: absolute;
+    right: 2px;
+    top: -7px;
+    width: 14px;
+    height: 14px;
+    background-image: url('../assets/image/item-check.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+
+
+.journal-carsoul-content .carousel-caption{
+    color: #8400ff;
+    background: #f7f7f7c2;
+    bottom: 0;
+    width: calc(100% - 70px);
+    height: calc(100% - 70px);
+    left: 0;
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.journal-carsoul-content .carousel-caption p{
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .journal-carsoul-content .carousel-caption{
+        width: calc(100% - 100px);
+        height: calc(100% - 100px);
+        margin: 50px;
+    }
+}
+
+
+.journal-carsoul-content .card-title{
+    font-size: 16px;
+}
+
+/* .journal-carsoul-content .carousel-control-next, .journal-carsoul-content .carousel-control-prev{
+    opacity: 1;
+} */
+
+
+.journal-carsoul-content .carousel-control-prev-icon{
+    background-color: #9641e5;
+    padding: 5px;
+    border-radius: 100%;
+    transform: scale(1.6) translate(-10px, 3px);
+    background-size: auto;
+    /* border: 2px solid white; */
+}
+
+
+.journal-carsoul-content .carousel-control-next-icon{
+    background-color: #9641e5;
+    padding: 5px;
+    border-radius: 100%;
+    transform: scale(1.6) translate(10px, 3px);
+    background-size: auto;
+    /* border: 2px solid white; */
+}
+
+.journal-carsoul-content .carousel-indicators{
+    display: none;
+}
+
+
+.widget_tab .MuiTabs-root{   
+    min-height:15px;
+}
+
+.widget_tab .MuiTab-root{
+    min-width: 50px;
+    padding: 9px;
+    padding-left: 0;
+    min-height:15px;
+}
+
+
+
+.widget_tab .MuiTab-wrapper{
+    font-size: 12px;
+    text-transform: none;
+}
+
+.member_widget .MuiListItem-gutters{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.member_widget .MuiAvatar-root{
+    width: 50px;
+    height: 50px;
+}
+
+.widget_body .MuiBadge-dot{
+    height: 10px;
+    padding: 0;
+    min-width: 10px;
+    border-radius: 100px;
+}
+
+
+.memberactivity .MuiListItem-root{
+    padding-top:0px;
+}

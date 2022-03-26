@@ -1,0 +1,20 @@
+.post_footer{    
+    padding: 2px 12px;
+    color: var(--text-color-secondary);
+}
+
+.active_button_wrapper{
+    padding: 4px 0;
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid var(--border-color);
+    /* border-bottom: 1px solid var(--border-color); */
+}
+
+.post_footer img{
+    height: auto;
+}
+
+

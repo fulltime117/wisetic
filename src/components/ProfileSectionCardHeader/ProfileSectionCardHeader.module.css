@@ -1,0 +1,28 @@
+.post_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_header_left{
+    padding: 12px 0px 10px 35px;   
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.post_header_right{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding-right: 12px; 
+}
+
+.post_header_right button span{
+    text-transform: none;
+}
+
+@media only screen and (max-width: 600px){
+    .post_header_right{
+        margin-right: 12px;
+    }
+}

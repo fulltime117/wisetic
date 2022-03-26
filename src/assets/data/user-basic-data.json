@@ -1,0 +1,16 @@
+
+{
+    "id": 1, 
+    "name":"Joseph Perry",      
+    "profilephoto":"./images/avatar/1.jpg",
+    "overflowimage":"./images/avatar/userback1.jpg",
+    "job":"Soft ware developer | Affiliation/Country",
+    "nickname":"@Joseph",
+    "joindate":"December 2020",
+    "followers":3,
+    "following":8,
+    "flink":"#",
+    "ylink":"#",
+    "tlink":"#",  
+    "ismember":true
+}

@@ -1,0 +1,13 @@
+.document_body{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: white;
+}
+
+
+.p_title{
+    padding: 24px;
+    background-color: white;
+}
+

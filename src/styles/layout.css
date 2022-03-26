@@ -1,0 +1,510 @@
+.main-layout{
+    display: flex;
+    background: var(--background-color);
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main-layout .MuiIconButton-root{
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.page-content{
+    width: 100%;
+    margin-left: 68px;
+    transition: 0.4s ease-in-out;
+}
+
+.ismobile .page-content{
+    margin-left: 0;
+}
+
+.reduce.page-content{
+    margin-left: 240px;
+}
+
+.page-main{
+    padding-top: 77px;
+}
+
+/* side bar style here */
+.aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 111;
+}
+
+.side{
+    display:flex;    
+}
+
+.side-content{
+    height: 100vh;
+    width: 68px; 
+    background-color: var(--background-dark); 
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.ismobile .side-content{
+    overflow: auto;
+}
+
+.side-content.open{
+    width: 240px;    
+}
+
+.side-content.open .side-header{
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.side-content .MuiListItem-root{
+    white-space: nowrap;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ismobile .side-content{
+    margin-left: -240px;
+}
+
+.ismobile .mobilesideopen .side-content{
+    margin-left: 0px;
+}
+
+.ismobile .side-body{
+    height: 87vh;
+    overflow-y: auto;
+}
+
+.side-icon{
+    background-color: var(--icon-color);
+    width: 18px;
+    height: 20px;
+}
+
+.profile-icon{
+    mask: url('../assets/image/icon-profile.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-profile.svg') no-repeat center / contain;
+    width: 17px;
+    height: 24px;
+}
+
+.public-icon{
+  mask:url('../assets/image/icon-public.svg') no-repeat center / contain;
+  -webkit-mask: url('../assets/image/icon-public.svg') no-repeat center / contain;
+  width: 17px;
+}
+
+.submit-icon{
+    mask:url('../assets/image/icon-submit.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-submit.svg') no-repeat center / contain;
+     
+}
+
+.create-icon{
+    mask:url('../assets/image/icon-create.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-create.svg') no-repeat center / contain;
+     
+}
+
+.edit-cv-icon{
+    mask:url('../assets/image/icon-editcv.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-editcv.svg') no-repeat center / contain;
+    width: 17px;
+}
+.dashboard-icon{
+    mask:url('../assets/image/icon-dashboard.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-dashboard.svg') no-repeat center / contain;
+    width: 16px;
+}
+
+.community-icon{
+    mask:url('../assets/image/icon-community.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-community.svg') no-repeat center / contain;
+    width: 21px;
+    margin-left: -2px;
+}
+
+.connection-icon{
+    mask:url('../assets/image/icon-connection.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-connection.svg') no-repeat center / contain;
+    
+}
+
+.edit-board-icon{
+    mask:url('../assets/image/icon-edit_borard.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-edit_borard.svg') no-repeat center / contain;
+    width: 15px;
+    margin-left: 2px;
+}
+
+.policy-icon{
+    mask:url('../assets/image/icon-policy.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/icon-policy.svg') no-repeat center / contain;
+    width: 21px;
+    height: 26px;
+    margin-left: 1px;
+}
+
+.side-header{
+    width: inherit;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-content .MuiListItemText-root{
+    color: var(--icon-color);
+}
+
+.side-content .MuiSvgIcon-root{
+    fill: var(--icon-color);
+}
+
+.side-content .MuiListItem-button:hover{
+    background-color: rgb(150 65 229 / 11%);
+}
+
+.side-content .MuiListItem-button:hover .side-icon{
+    background-color: #9641e5;
+}
+
+.side-content .MuiListItem-button:hover .MuiListItemText-root{
+    color: #9641e5;
+}
+
+
+/* header style here */
+.page-header{
+    position: fixed;
+    z-index: 20;
+    width: calc(100% - 68px);
+    transition: 0.4s ease-in-out;
+}
+
+.ismobile .page-header{
+    width: 100%;
+}
+
+.reduce .page-header{
+    width: calc(100% - 240px);
+}
+
+.page-header .sigt-logo{
+    width: 121px;
+    height: 48px;
+}
+
+
+
+.page-header .MuiBadge-badge{
+    font-size: 0.6rem;
+    height: 17px;
+    border-radius: 100px;
+    width: 17px;
+    min-width: unset;
+}
+
+
+
+.page-header .sigt-logo img{
+    height: 100%;
+}
+
+.page-header  .MuiSvgIcon-root{
+    width: 22px;
+}
+
+.page-header .MuiToolbar-root{
+    height: 76px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header .MuiAppBar-colorPrimary{
+    color: var(--text-color);
+    background-color: #fff;
+    /* width: 99.5%; */
+}
+
+.page-header .avatar-wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.page-header .avatar-wrapper .MuiAvatar-circle{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #D9D9D9;
+    margin-right: 7px;
+}
+
+.nav-menu-link{
+    display: flex;
+    column-gap: 22px;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-menu-link a{
+    font-size: 14px;   
+    color: var(--text-color); 
+}
+
+.nav-menu-link a:hover{
+    color: #9641E5;
+}
+
+.nav-menu-link .nav-active{
+    color: #9641E5;
+}
+
+
+
+
+.MuiMenuItem-root{
+    font-size: 13px !important;
+}
+
+.MuiMenu-list a{
+    color: var(--text-color);
+}
+
+.MuiMenu-list a:hover{
+    color: var(--secondary-color);
+}
+
+#primary-search-account-menu .MuiListItem-root:hover .MuiSvgIcon-root{
+    fill: var(--secondary-color);
+}
+
+#primary-search-account-menu .MuiListItem-root:hover{
+    padding-left: 18px;
+}
+
+.MuiContainer-maxWidthLg{
+    transition: 0.4s ease-in-out;
+}
+
+@media only screen and (max-width: 1400px) {
+    .reduce.page-content .MuiContainer-maxWidthLg{
+        max-width: 1111px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .ismobile .widget-section{
+        display: none;
+    }
+}
+
+.post-contents .makeStyles-apptab-86{
+    border-bottom: none;
+}
+
+#primary-search-account-menu .MuiSvgIcon-root{
+    fill: var(--text-color);
+    margin-right: 7px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.MuiAvatar-img{
+    border-radius: 100px;
+}
+
+.ismobile .nav-menu-link{
+    display: none;
+}
+
+
+.forgot-password-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid red;
+    z-index: 3000;
+}
+
+#header-message-menu .MuiMenu-paper{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 12px;
+}
+
+#header-message-menu .message-list{
+    background-color: white;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #e0e0e0;
+}
+
+#header-message-menu .message-list:hover{
+    transform: translateY(-2.5px);
+}
+
+#header-message-menu .MuiList-padding{
+    padding: 0;
+}
+
+
+
+#header-message-menu .message-menu-header{
+    background-color: #9641E5; 
+    color: white;
+    padding:7px 17px;
+    min-height: 35px;
+    min-width: 350px;
+    cursor: default;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #9641e5;
+    margin-bottom: 5px;
+}
+
+.pointer-text{
+    cursor: pointer;
+}
+
+.hover-effect-a:hover{
+    transform: scale(1.05);    
+}
+
+/* page-header-menu = MuiPopover-root */
+
+.MuiPopover-root .MuiTypography-body1{
+    font-size: 13px;
+}
+
+.chip_button_wrapper .MuiAvatar-img{
+    border-radius: 0px;
+}
+
+
+.MuiPopover-root .message-notification-close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#header-alram-menu .MuiMenu-paper{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 12px 12px;
+}
+
+
+#header-alram-menu .message-list{
+    background-color: white;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 1px #e0e0e0;
+}
+
+#header-alram-menu .message-list:hover{
+    transform: translateY(-2.5px);
+}
+
+
+#header-alram-menu .alram-menu-footer{
+    background-color: #fff; 
+    color: var(--text-color);
+    padding:7px 17px;
+    min-height: 35px;
+    min-width: 350px;
+    cursor: default;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #e0e0e0;
+    margin-top: 5px;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    #header-message-menu .message-menu-header{
+        min-width: 250px;
+    }
+}   
+
+
+.video-modal-close-button{
+    position: absolute !important;
+    top: -31px;
+    right: -31px;
+}
+
+.video-modal-close-button .MuiIconButton-label{
+    padding: 6px;
+    border-radius: 100px;
+    background-color: #9641e5;
+    opacity: 0.6;
+    transition: opacity .15s ease;
+}
+
+.video-modal-close-button:hover .MuiIconButton-label{
+    opacity: 0.9;
+}
+
+.video-modal-close-button svg{
+    fill: white;
+}
+
+
+/* bar test */
+
+.bar-pointer{
+    transform: translate(-4px, -3px);
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    background-color: #1BEA3D !important;
+    box-shadow: -2px 1px 6px #00000040;
+}
+
+.bar-pointer::after{
+    content: "";
+    background-color: rgb(255 255 255);
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100px;  
+}
+
+/* list style with avatar*/
+.list-item-title{
+    font-size: 12px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.list-item-title:hover{
+    color: var(--secondary-color);
+}
+
+.list-item-subtitle{
+    font-size: 10px;
+    color: var(--text-color-secondary);
+}
+
+
+
+

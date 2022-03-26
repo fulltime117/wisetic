@@ -1,0 +1,32 @@
+.p_info_content{
+    padding-bottom: 24px;
+}
+
+.p_information{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.p_info_wraper{
+    padding: 0 24px;
+}
+
+.p_info_subtitle{
+    font-weight: 400 !important;
+    margin-top: 10px !important;
+    margin-bottom: 3px !important;
+}
+
+.info_bottom{
+    margin-top: 24px;
+}
+
+
+.info_bottom button{
+    border-radius: 100px;
+}
+
+

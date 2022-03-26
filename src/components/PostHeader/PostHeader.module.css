@@ -1,0 +1,23 @@
+.post_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_header_left{
+    padding: 12px 17px 10px;    
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.post_header_right{
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+    .post_header_right{
+        margin-right: 12px;
+    }
+}

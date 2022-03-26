@@ -1,0 +1,172 @@
+
+.p_title{
+    padding: 24px;
+    background-color: white;
+}
+
+.sc_body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    column-gap: 24px;
+    background-color: white;
+}    
+
+.courses_section{
+   width: 100%;
+   padding:24px;
+   padding-left: 12px;  
+    
+}
+.courses_title{
+    width: 100%;
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+
+.courses_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 12px;
+    row-gap: 12px;
+    height: auto;
+    transition: 0.7s;
+}
+
+.courses_card{
+    width: 32.4%;
+    height:auto;
+    border: 1px solid var(--border-color);
+    position: relative;
+}
+
+.corse_card_image{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.corse_card_image img{
+    width: 100%;
+}
+
+.style_progressbar{
+    width: 100%;
+}
+
+.course_card_contents{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;  
+    row-gap: 12px;  
+}
+
+.course_sub_info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.course_sub_info div{
+    font-size: 12px;
+    color: var(--text-color-secondary);
+}
+
+.course_name{
+    width: 100%;
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: bold;
+    
+}
+
+.course_creator{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course_creator li{
+    padding: 0;
+}
+
+.small_comment_react{
+    display: flex;    
+}
+
+.small_comment button{    
+    padding: 6px;
+    min-width: 46px;
+}
+
+.small_react button{
+    padding: 6px;
+    min-width: 46px;
+}
+
+
+
+.small_between_line{
+    width: 1.5px;
+    height: 20px;
+    background-color: var(--border-color);
+    margin-top: 6px;
+}
+
+.skill_attentor{
+    display: flex;
+    padding-left: 20px;
+}
+
+.also{
+    display: flex;
+    font-size: 11px;
+    cursor: pointer;
+    align-items: center;
+    color: var(--text-color-secondary);
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.also:hover{
+    color: var(--secondary-color);
+}
+
+.course_card_footer{
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.showall_button{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.showall_button button{
+    border-radius: 100px;
+    font-size: 10px;
+    padding: 8px 25px;
+    
+}
+
+.skil_overall_text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 9px;
+    font-size: 20px;
+    color: #424040;
+    width: 79%;
+    background-color: #e8ecf599;
+    font-weight: bold;    
+}

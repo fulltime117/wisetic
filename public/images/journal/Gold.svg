@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="135" viewBox="0 0 87 135">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="31" width="87" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gold" transform="translate(-1104 -2853)">
+    <g id="BG" transform="translate(1758 1462) rotate(90)">
+      <path id="BG-2" data-name="BG" d="M1391,592h135s-20,18.036-20,18.667c0,.519,20,18.333,20,18.333H1391Z" fill="#f0d309"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1104, 2853)" filter="url(#Ellipse_1)">
+      <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="34.5" cy="31" rx="34.5" ry="31" transform="translate(9 37)" fill="#f0d309"/>
+    </g>
+    <text id="GOLD-2" data-name="GOLD" transform="translate(1127 2927)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">GOLD</tspan></text>
+  </g>
+</svg>

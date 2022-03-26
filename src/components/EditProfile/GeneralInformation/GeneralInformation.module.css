@@ -1,0 +1,19 @@
+
+.countryselecter{
+    margin-top: 20px;
+}
+
+.countryselecter select{
+    height: 48px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding-left:15px; 
+    color: #757575;
+    border-radius: 4px;
+    outline: none !important;   
+}
+
+
+.countryselecter select option{
+    color:#757575;
+}

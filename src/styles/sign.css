@@ -1,0 +1,453 @@
+:root{
+    /* --s_page-color:#6d38ca; */
+    --s_page-color:#6c5ce7;
+    
+}
+
+#sign_page{
+    position: relative;
+}
+
+#sign_page .MuiContainer-root{
+    z-index: 5;
+}
+
+#sign_page .page_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;    
+    /* background-color: #227f77; */
+    z-index: 2;
+    opacity: 0.98;
+
+    background-image: url('../assets/image/01-purple-gradient.jpg');
+    background-size: cover;
+}
+
+#sign_page .top_back_shape{
+    position: absolute;
+    top: -27.67px;
+    left: -12.92px;
+    width: 510.7px;
+    height: 343.14px;
+    background-image: url("../assets/image/Path\ 6629.svg");
+    background-size: cover;
+    z-index: 1;
+}
+
+#sign_page .bottom_back_shape{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 623px;
+    height: 364px;
+    background-image: url("../assets/image/Repeat\ Grid\ 1.svg");
+    background-size: cover;
+    z-index: 1;
+}
+
+.sign_paper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign_container{
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    z-index: 6;
+}
+
+@media only screen and (min-width: 1200px) {
+    .sign_container {
+        width: 850px;
+        height: 500px;
+    }
+}
+
+.form_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;    
+    width: 60%;
+}
+
+.move_hiden .form_container{
+    transform: translateX(66%);
+}
+
+
+.form_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sign_in_form{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 50px 0;
+    text-align: center;
+    transition: all 0.7s ease-in-out;
+    /* border: 1px solid red; */
+    z-index: 2;
+    opacity: 1;
+}
+
+.sign_up_form{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 50px 0;
+    text-align: center;
+    transition: all 0.7s ease-in-out;
+    /* border: 1px solid red; */
+    z-index: 1;
+    opacity: 0;    
+}
+
+.sign_in_form h3{
+    font-size: 2rem;
+    color: var(--s_page-color);
+    margin-bottom: 18px;
+}
+
+.sign_up_form h3{
+    font-size: 2rem;
+    color: var(--s_page-color);
+    margin-bottom: 10px;
+}
+
+.sign_up_form .forgot{
+    margin-bottom: 0;
+}
+
+.social_box{
+    display: flex;
+    column-gap: 17px;
+    margin-bottom: 5px;
+}
+
+.email_note{
+    margin-bottom: 4px;
+    color: #757575;
+}
+
+.social_button{
+    width: 45px !important;
+    height: 45px !important;
+    /* background-color: transparent !important; */
+    /* border: 1px solid #f0f4f3 !important;    */
+    /* box-shadow: none !important; */
+    text-transform: none !important;
+    background-color:var(--s_page-color) !important;
+}
+
+.social_text{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0px;
+    /* text-shadow: 2px 3px 6px rgba(150, 150, 150, 1); */
+}
+
+.s_in{
+    margin: 10px 0;
+}
+
+.s_up{
+    margin: 6px 0;
+}
+
+.forgot{
+    /* border-bottom: 1px solid #bababa; */
+    padding-bottom: 6px;
+    cursor: pointer;    
+    margin-top: 17px;
+    color: #757575;
+}
+
+.forgot:hover{
+    color:var(--s_page-color);    
+}
+
+.agree{
+    /* padding-bottom: 6px; */
+    cursor: pointer;    
+    /* margin-top: 10px; */
+    color: #757575;
+}
+
+.agree a{
+    color:var(--s_page-color);    
+}
+
+.s_button{
+    border-radius: 100px !important;
+    background-color: var(--s_page-color) !important;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+}
+
+
+.s_button span{
+    color: white !important;
+}
+
+.agree{
+    color: var(--text-color);
+}
+
+.s_overall{   
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    /* -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; */
+    width: 40%;
+    z-index: 7;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding: 15px;
+    animation: removebackground 0.6s ease-in-out;    
+    animation-fill-mode: forwards;
+}
+
+@keyframes removebackground {
+    0%   {
+        transform: translate(-150%);
+        width: 40%;
+    }
+    50%  {
+        width: 50%;
+        background-color: var(--s_page-color);
+    }
+    100% {
+        width: 40%;
+        transform: translateX(0%);
+    }
+}
+
+
+
+.move_hiden .s_overall{    
+    animation: moveshow 0.6s ease-in-out;    
+    animation-fill-mode: forwards;
+}
+
+/* The animation code */
+
+@keyframes moveshow {
+    0%   {
+        transform: translate(0%);
+        width: 40%;
+       
+    }
+    50%  {
+        width: 50%;
+        background-color: var(--s_page-color);
+    }
+    100% {
+        width: 40%;
+        transform: translateX(-150%);
+    }
+}
+
+.st_button{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    box-shadow: none !important;
+    border-radius: 100px !important;
+    width: 154px;
+    height: 45px;
+    margin: 1em 0 !important;
+
+}
+
+.st_button span{
+    color: white !important;
+}
+
+/* focused color  */
+.s_in .Mui-focused{
+    color: var(--s_page-color) !important;
+}
+
+.s_in .MuiInput-underline:after{
+    border-bottom: 2px solid var(--s_page-color) !important;
+}
+
+.s_in .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid rgb(0 0 0 / 15%);
+}
+
+
+
+.s_in .MuiInputBase-input, .s_up .MuiInputBase-input{
+    color: var(--text-color) !important; 
+    width: 290px;
+}
+
+.s_in .MuiSvgIcon-root{
+    fill: #757575 !important
+}
+
+
+.s_up .MuiSvgIcon-root{
+    fill: #757575 !important
+}
+
+.mobiile-form-trun .MuiSvgIcon-root{
+    fill: #757575 !important
+}
+
+.s_overall{
+    color: white;
+}
+
+.s_overall h1{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.s_overall h4{
+    width: 310px;
+    padding-left: 12px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.s_overall p{
+    text-align: center;
+}
+
+
+
+
+.move_hiden .sign_in_form{
+    opacity: 0;
+    z-index: 1;
+}
+
+.move_hiden .sign_up_form{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.s_logo{
+    z-index: 30;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+}
+
+
+.s_logo img{
+    width: 100%;
+}
+
+.mobile-signpage .sign_container{
+    position: unset;
+    
+}
+
+.mobile-signpage .form_container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.mobile-signpage .s_overall{
+    display: none;
+}
+
+
+.mobile-signpage .form_wrapper{
+    display: flex;
+    width: 200vw;
+    transition: 0.6s ease-in-out;
+}
+
+.mobile-signpage .turn.form_wrapper{
+    transform: translateX(-100vw);
+}
+
+.mobile-signpage .sign_in_form{
+    width: 100vw;
+    position: relative;
+    padding: 60px 20px 0;
+}
+
+.mobile-signpage .sign_up_form{
+    width: 100vw;
+    position: relative;
+    opacity: 1;
+    padding: 60px 20px 0;
+
+}
+
+.mobiile-form-trun{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobiile-form-trun:hover{
+    color: var(--primary-color);
+}
+
+
+.mobile-signpage .mobile-sign-link{
+    margin:10px;
+}
+
+.tagline{
+    margin: 15px 0 0;
+    text-align: left;
+    color: var(--text-color);
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 10px;
+    font-size: 1rem;
+    border-left: 2px solid gray;
+}
+
+.agree .MuiSvgIcon-root{
+    font-size: 14px;
+    margin-right: -5px;
+}
+
+.mobile-signpage .agree{
+    margin-bottom: 0px;
+}

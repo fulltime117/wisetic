@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="135" viewBox="0 0 87 135">
+  <defs>
+    <filter id="Path_4" x="0" y="33" width="87" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Silver" transform="translate(-1163 -2853)">
+    <g id="BG" transform="translate(1817 1462) rotate(90)">
+      <path id="BG-2" data-name="BG" d="M1391,592h135s-20,18.036-20,18.667c0,.519,20,18.333,20,18.333H1391Z" fill="#c7c7c7"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1163, 2853)" filter="url(#Path_4)">
+      <path id="Path_4-2" data-name="Path 4" d="M34.5,0C53.554,0,69,13.879,69,31S53.554,62,34.5,62,0,48.121,0,31,15.446,0,34.5,0Z" transform="translate(9 39)" fill="#c7c7c7"/>
+    </g>
+    <text id="SILVER-2" data-name="SILVER" transform="translate(1182 2929)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SILVER</tspan></text>
+  </g>
+</svg>

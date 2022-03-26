@@ -1,0 +1,33 @@
+
+.experience_row{
+    position: relative;
+}
+
+.add_experience{
+    width: 100%;
+}
+
+.add_experience button{
+    width: 100%;
+    border:1px dashed #9641E5;
+}
+
+.experience_row .MuiAccordionSummary-content{
+    margin: 0;
+}
+
+
+
+.countryselecter select{
+    height: 37px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding-left:11px; 
+    color: #757575;
+    outline: none !important;
+    border-radius: 4px;
+}
+
+.countryselecter select option{
+    color:#757575;
+}

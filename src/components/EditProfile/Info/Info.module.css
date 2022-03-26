@@ -1,0 +1,21 @@
+
+.item_title{
+    /* color: red; */
+    padding-top: 30px;    
+}
+
+.individual_item{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.individual_item_title{
+    padding-top: 17px;
+}
+
+.action_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

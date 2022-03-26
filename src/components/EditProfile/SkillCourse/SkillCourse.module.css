@@ -1,0 +1,43 @@
+.dots_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.level_dot{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.add_language{
+    width: 100%;
+}
+
+.add_language button{
+    width: 100%;
+    border:1px dashed #9641E5;
+}
+
+
+.action_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_title{
+    /* color: red; */
+    padding-top: 30px;    
+}
+
+.individual_item{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.individual_item_title{
+    padding-top: 17px;
+}

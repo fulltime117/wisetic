@@ -1,0 +1,55 @@
+.connection_body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    column-gap: 24px;
+    row-gap: 24px;
+    background-color: white;
+}
+
+.connection_card{
+    max-width: 280px;
+    width: 273px;
+}
+
+.follow_row{
+    display: flex;
+}
+
+.cardaction{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 1px solid var(--border-color);  
+    position: relative; 
+    padding: 0 !important; 
+}
+
+.cardaction button{
+    width: 100%;
+    margin: 0px !important;
+    border-radius: 0px;
+}
+
+.cardaction button:hover {
+
+}
+
+.between{
+    position: absolute;
+    top: 0;
+    right: 119px;
+    display: flex;
+    height: 35px;
+    width: 1px;
+    background-color: #ebe9e6;
+}
+
+
+
+.p_title{
+    padding: 24px;
+    background-color: white;
+}

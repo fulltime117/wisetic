@@ -1,0 +1,49 @@
+.complete_profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.complete_profile a{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.complete_profile a:hover{
+    color: var(--secondary-color);
+}
+
+.complete_profile span{
+    font-size: 14px;
+}
+
+.complete_profile .MuiSvgIcon-root{
+    width: 18px;
+    height: 18px;
+}
+
+.complete_profile label{
+    margin-bottom: 0;
+}
+
+.circle_progress{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+}
+
+.percent_show{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

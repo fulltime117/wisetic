@@ -1,0 +1,395 @@
+.profile-widgets{     
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.ismobile .ProfileBanner_profile_cover__GM0qo{
+    flex-direction: column;
+}
+.ismobile .ProfileBanner_p_photo__8dbn7{
+    margin-top: -138px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-page .MuiTableCell-root{
+    border-bottom: none !important;
+}
+
+.profile-page .MuiBox-root{
+    padding: 0;
+}
+
+
+.profile-page .ProfileInfo_p_information__3JcmF h6{
+    margin-bottom: 0px;
+}
+
+.profile-widgets .MuiPaper-rounded{
+    margin-bottom: 24px;
+}
+
+.component-connection .MuiPaper-elevation1:hover{
+    box-shadow: 0.5px 2px 10px #80808094;
+}
+
+
+.profile-page .MuiTab-root {
+    min-width: 30px;
+    /* border: 1px solid red; */
+    padding: 6px 15px;    
+}
+
+.profile-page .MuiTab-root:hover{
+    background-color: #ceb5ff1a;
+    color: #9c4ce7;
+}
+
+#scrollable-auto-tabpanel-0{
+    /* background-color: white; */
+    margin-bottom: 20px;
+    border-radius: 4px;
+    /* border: 1px solid var(--border-color); */
+}
+
+#scrollable-auto-tabpanel-0 .MuiContainer-root{
+    padding: 0;
+}
+
+#scrollable-auto-tabpanel-0 .MuiTypography-h4{
+    display: none;
+}
+
+#scrollable-auto-tabpanel-0 .widget-section .MuiPaper-elevation1{
+    margin-top: 0 !important;
+}
+
+
+
+#scrollable-auto-tabpanel-1{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+#scrollable-auto-tabpanel-2{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+.my-profileTab-page{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+
+/* edit page content here */
+
+.edit-page-content{
+    margin: 24px;
+    background: white;
+    border-radius: 4px;
+    padding:0px 24px 24px;
+    border: 1px solid #ebe9e6;
+}
+
+.edit-page-content .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #9641E5;
+    border: 1px solid #9641E5;
+    background-color: rgba(150, 65, 229, 0.04);
+}
+
+.edit-page-content .nav-pills{
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.edit-page-content .nav-item a{
+    color: var(--text-color);
+}
+
+.edit-page-content .tab-content{
+    min-height: 40;
+}
+
+.edit-page-content .edit-profile-pagetitle{
+    width: 100%;
+    padding:24px 0px 15px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+
+
+#edit-profile-tab-tabpane-general .form-row{
+    column-gap: 15px;
+}
+
+#edit-profile-tab-tabpane-general .form-group .MuiFormControl-root{
+    width: 100%;
+}
+
+#edit-profile-tab-tabpane-general .MuiFormControl-root label{
+    font-size: 14px;
+}
+
+.experience-add-section .MuiCollapse-wrapper .MuiAccordionDetails-root{
+    display: block;
+    width: 100%;
+}
+
+.experience-add-section .MuiAccordionDetails-root .form-row{
+    column-gap: 15px;
+}
+
+.experience-add-section .MuiAccordionDetails-root .form-row .MuiFormControl-root{
+    width: 100%;
+}
+
+.experience-add-section .accordionsummary{
+    min-height: unset !important;
+    transition: 0.4s ease-in-out;
+}
+
+.experience-add-section .accordionsummary .MuiAccordionSummary-content{
+    margin: 0;
+}   
+
+.experience-add-section .MuiAccordionSummary-root.Mui-expanded{
+    margin-top: 15px;
+    
+}
+
+
+.experience-add-section .accordionsummary .experienceshow{
+    position: absolute;
+    z-index: 20;
+    top: 4px;
+    right: 40px; 
+    display: none;
+}
+
+.experience-add-section .MuiAccordionSummary-root.Mui-expanded .experienceshow{
+    display: inline-block;
+}
+
+.experience-add-section .MuiInputBase-root{
+    font-size: 14px;
+}
+
+.experience-add-section .MuiFormLabel-root{
+    font-size: 14px;
+    left: 2px;
+}
+
+
+/* skillcourse */
+
+.SkillCourse-content .MuiFormControl-root{
+    width: 100%;
+}
+
+.SkillCourse-content .form-row{
+    column-gap: 15px;
+
+}
+
+.skill-level-dot-wraper{
+    display: flex;
+    align-items: center;
+}
+
+.level-dot{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #9641E5;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.active-dot{
+    background: #9641E5;
+}
+
+
+.SkillCourse-content .MuiSelect-root .skill-level-dot-wraper{
+    transform: scale(0.8) translateX(-17px);
+}
+
+
+.SkillCourse-content .MuiFormLabel-root{
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.SkillCourse-content .MuiInputBase-input{
+    font-size: 14px;
+}
+
+.seminars-contry-select{    
+    margin-bottom: 30px;
+}
+
+.seminars-contry-select select{
+    height: 37px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding-left: 11px;
+    color: #757575;
+    outline: none !important;
+    border-radius: 4px;
+}
+
+.component-connection .MuiSvgIcon-root{
+    fill: var(--text-color);
+    opacity: 0.7;
+}
+.component-connection .MuiButtonBase-root:hover .MuiSvgIcon-root{
+    opacity: 1;
+}
+
+.profile-page .MuiTab-root{
+    font-size: 14px;
+}
+
+.Inprofile_Document_section .MuiTableRow-root.MuiTableRow-hover:hover{
+    background-color: transparent;
+}
+
+#document_more_menu .MuiPaper-elevation8{
+    box-shadow: 0px 2px 1px -1px rgb(255 255 255 / 42%), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgb(0 0 0 / 7%);
+}
+
+#document_more_menu .MuiSvgIcon-root{
+    fill: var(--text-color);
+    font-size: 16px;
+    opacity: 0.8;
+    margin-right: 7px;
+}
+
+.in_profile_mediabody .MuiTabs-flexContainer{
+    display: inline-flex;
+}
+
+
+.in_profile_mediabody{
+    padding: 0 24px;
+}
+
+.component-connection .MuiBadge-dot{
+    height: 12.5px;
+    padding: 0;
+    min-width: 13px;
+    width: 13px;
+    border-radius: 200px;
+}
+
+.card-name-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    position: relative;  
+}
+
+.card-name-wrapper .c_widget_item_check{
+    right: 1px;
+    top: 3px;
+    width: 20px;
+    height: 15px;
+}
+
+.card-chip-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.pluse-icon-wraper{
+    height: 24px;
+    width: 24px;
+    border-radius: 100px;
+    background-color: #9641E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3px;
+}
+
+.pluse-icon-wraper svg{
+    font-size: 10px;
+    fill: white !important;
+    font-weight: bold;
+}
+
+.pluse-icon-wraper span{
+    font-size: 9px;
+    color: white;
+}
+
+.add-friend-icon{
+    background-color: #484747;
+    mask: url('../assets/image/add-friend.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/add-friend.svg') no-repeat center / contain;
+    width: 34px;
+    height: 24px;
+}
+
+button:hover .add-friend-icon{
+    background-color:#8000ff;
+}
+
+.conversation-icon{
+    background-color: #484747;
+    mask: url('../assets/image/conversation.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/image/conversation.svg') no-repeat center / contain;
+    width: 18px;
+    height: 24px;
+}
+
+button:hover .conversation-icon{
+    background-color: #8000ff;
+}
+
+
+.component-connection .offline-badge svg{
+    display: none;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.component-connection .WithStyles\(ForwardRef\(Avatar\)\)-root-35{
+    width: 17px !important;
+    height: 17px !important;
+}
+
+#scrollable-auto-tabpanel-6{
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.component-connection .MuiButton-root:hover .add-friend-icon{
+    background-color: #484747;
+}
+
+
+
+.my-profileTab-page .progress-bar{
+    background-color: #1bea3d !important;
+    font-size: 9px;
+    padding-top: 3px;
+}
+
+.my-profileTab-page .MuiCollapse-container{
+    padding-left: 12px;
+}
+

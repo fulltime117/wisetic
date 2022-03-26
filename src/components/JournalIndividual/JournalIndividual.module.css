@@ -1,0 +1,353 @@
+.overalls{
+    position: absolute;
+    top: 45px;
+    left: 45px;  
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+.overalls_header{
+    white-space: nowrap;
+    width: 556px;
+    height: 42px;
+    padding-left: 15px;    
+    background-image: url('../../assets/image/Cover\ Hadding\ Shade_1.png');
+    background-position: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    /* background: rgb(208,192,17); */
+    /* background: linear-gradient(90deg, rgba(208,192,17,1) 0%, rgba(157,42,245,0) 100%); */
+}
+
+.banner_pre_text{
+    font-size: 26px;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.overall_texts{
+    display: flex;
+}
+
+
+.overall_dropdown{
+    font-size: 14px;
+    color: white;
+    margin-left: 123px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.overall_dropdown:hover{
+    color: #9641E5;
+}
+
+.overall_shape_wraper{
+    position: relative;
+    height: 100%;
+}
+
+.overall_shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: fit-content;
+    height: auto;
+    height: 157px;
+    /* border: 1px solid red; */
+
+}
+
+.second_overall_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 730px;
+    z-index: inherit 0;   
+    opacity: 0.2; 
+}
+
+.white_shapes{
+    height: 100%;
+    z-index: 3;
+    position:absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.white_shapes img{
+    height: 100%;
+}
+
+/* individual  */
+
+.tab_links{
+    padding: 8px;  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000025;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tab_links{
+        flex-direction: column;
+    }
+    
+}
+
+.manuscript_buttons button{
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+
+
+
+@media only screen and (max-width: 2000px) {
+    .manuscript_buttons button{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .manuscript_buttons button{
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .manuscript_buttons button{
+       margin-left: 0;
+       margin-bottom: 15px;
+    }
+
+
+}
+
+.link_buttons{
+    display: flex;
+    column-gap: 24px;
+    margin-right: 35px;
+}
+
+.link_buttons button{
+    font-size: 12px;
+    border-radius: 100px;
+    padding: 5px 15px;
+
+}
+
+
+
+.link_buttons button svg{
+    border-radius: 100px;
+    box-shadow: 0px 3px 7px;
+    opacity: 0.5;
+}
+
+.link_buttons button:hover svg{
+    opacity: 0.9;    
+}
+
+.editor_borard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: transparent;
+    row-gap: 12px;
+
+}
+
+.section_title{
+    width: 100%;
+    height: 60px;
+    /* border:1px solid red; */
+    background-image: url('../../assets/image/WhiteShade.png');
+    background-position: right;
+    display: flex; 
+    align-items: center; 
+    margin-top: 24px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 6px #00000003;
+    justify-content: space-around;
+}
+
+.title_text{
+    color: var(--text-color);
+    font-size: 25px;
+}
+
+.title_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.title_info p{    
+    margin: 0;
+    color: var(--text-color-third);
+}
+
+.swip_view{
+    overflow: unset !important;
+}
+
+.scope_card{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 2px 6px #00000025;
+    position: relative;
+}
+
+.scope_text{
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.scope_date_info{
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: bold;
+    
+}
+
+.active_item{
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}
+
+.active_item .icon_button{
+    background-color: #00CCF2 ;
+    box-shadow: 0px 2px 6px #4641418c;
+}
+
+.active_item .icon_button:hover{
+    background-color: #0adaff ;
+    box-shadow: none;
+}
+
+.active_item .icon_button svg{
+    fill: white;
+    font-size: 15px;
+    transition: 0.15s;
+}
+
+.active_item .icon_button:hover svg{
+    transform: rotate(45deg);
+}
+
+
+
+.section_footer_button{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.section_footer_button button{
+    border-radius: 100px;
+    padding: 7px 24px;
+    font-size: 12px;  
+}
+
+.section_footer_button button span{
+    text-transform: none;    
+}
+
+.want_footer_button{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.want_footer_button button{
+    border-radius: 100px;
+    padding: 7px 24px;
+    font-size: 12px;  
+    box-shadow: 2px 3px 6px #53245440;
+}
+
+.want_footer_button button span{
+    text-transform: none;    
+    text-shadow: 2px 2px 3px #9641e5;
+}
+
+
+
+
+
+.want_editor{
+    width:100%;
+    height: 140px;
+    background-image: url('../../assets/image/Want\ to\ become\ Editor.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 100%;
+    /* border: 1px solid;    */
+    margin-top: 24px;
+    box-shadow: 0px 1px 6px #00000003;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.want_ediotr_text{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.have_idea{
+    width:100%;
+    background-image: url('../../assets/image/Group 130.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid;    */
+    margin-top: 24px;
+    box-shadow: 0px 1px 6px #0000000a;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.have_idea_text{
+    font-size: 24px;
+    font-weight:bold;
+    color: #2FA80A;
+}
+
+
+.why_video{
+    width: 100%;
+    min-height: 200px;
+    height: 201px;
+    border-radius: 9px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.why_video iframe{
+    z-index: 20;
+}
+
+
+
+
